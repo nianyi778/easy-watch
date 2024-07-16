@@ -1,0 +1,41 @@
+{
+  "name": "system-monitor",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "tauri": "tauri"
+  },
+  "dependencies": {
+    "@tauri-apps/api": "^1.2.0",
+    "@ant-design/icons": "^5.3.6",
+    "@types/lodash-es": "^4.17.12",
+    "ahooks": "^3.7.11",
+    "antd": "^5.17.3",
+    "autoprefixer": "^10.4.19",
+    "classnames": "^2.5.1",
+    "dayjs": "^1.11.10",
+    "immer": "^10.1.1",
+    "less": "^4.2.0",
+    "lodash-es": "^4.17.21",
+    "postcss": "^8.4.38",
+    "postcss-preset-env": "^9.5.6",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.22.3",
+    "tailwindcss": "^3.4.3",
+    "zustand": "^4.5.2"
+  },
+  "devDependencies": {
+    "@types/node": "^18.7.10",
+    "@tauri-apps/cli": "^1.2.2",
+    "@types/react": "^18.2.15",
+    "@types/react-dom": "^18.2.7",
+    "@vitejs/plugin-react": "^4.2.1",
+    "typescript": "^5.0.2",
+    "vite": "^5.0.0"
+  }
+}
