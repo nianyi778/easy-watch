@@ -14,6 +14,7 @@ export default function Home() {
             title: "运行时数据监听",
             fullscreen: true,
         })
+        console.log(webview);
     }, [])
 
     return <div className=" flex items-center justify-center w-full bg-gradient-to-br from-purple-500 to-pink-500">

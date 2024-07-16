@@ -1,6 +1,5 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-// import App from "./App";
 import "./styles.css";
 import { router } from "./router";
 import { RouterProvider } from "react-router-dom";
@@ -15,7 +14,6 @@ dayjs.locale('zh-cn');
 
 ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
   <React.StrictMode>
-    {/* <App /> */}
     <ConfigProvider
       locale={locale}
       theme={{

@@ -5,9 +5,13 @@ import { useEffect } from "react";
 export default function Runtime() {
 
     useEffect(() => {
-        invoke<BatteryData>("battery_info", {}).then(battery => {
-            console.log("Battery info", battery);
-        })
+        const t = setInterval(() => {
+            invoke<BatteryData>("cpu_info", {}).then(cpu => {
+                console.log("cpu info", cpu);
+            })
+        }, 1000)
+
+        return clearInterval(t);
     }, [])
 
     return <div className="w-full h-full relative">
